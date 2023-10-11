@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="impl\include.hpp" />
+    <ClInclude Include="impl\imports.hpp" />
+    <ClInclude Include="impl\hash.hpp" />
+    <ClInclude Include="impl\driver\driver.hpp" />
+    <ClInclude Include="dependencies\framework\burbank.hpp" />
+    <ClInclude Include="dependencies\framework\hashes.hpp" />
+    <ClInclude Include="dependencies\framework\imconfig.h" />
+    <ClInclude Include="dependencies\framework\imgui.h" />
+    <ClInclude Include="dependencies\framework\imgui_impl_dx11.h" />
+    <ClInclude Include="dependencies\framework\imgui_impl_win32.h" />
+    <ClInclude Include="dependencies\framework\imgui_internal.h" />
+    <ClInclude Include="dependencies\framework\imstb_rectpack.h" />
+    <ClInclude Include="dependencies\framework\imstb_textedit.h" />
+    <ClInclude Include="dependencies\framework\imstb_truetype.h" />
+    <ClInclude Include="impl\render\render.hpp" />
+    <ClInclude Include="impl\render\Vectors.h" />
+    <ClInclude Include="impl\hooks\hooks.hpp" />
+    <ClInclude Include="impl\game\g_math.hpp" />
+    <ClInclude Include="impl\game\game.hpp" />
+    <ClInclude Include="impl\utilities\utilities.hpp" />
+    <ClInclude Include="impl\globals.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entrypoint.cpp" />
+    <ClCompile Include="impl\driver\driver.cpp" />
+    <ClCompile Include="dependencies\framework\imgui.cpp" />
+    <ClCompile Include="dependencies\framework\imgui_demo.cpp" />
+    <ClCompile Include="dependencies\framework\imgui_draw.cpp" />
+    <ClCompile Include="dependencies\framework\imgui_impl_dx11.cpp" />
+    <ClCompile Include="dependencies\framework\imgui_impl_win32.cpp" />
+    <ClCompile Include="dependencies\framework\imgui_tables.cpp" />
+    <ClCompile Include="dependencies\framework\imgui_widgets.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="impl\zenith_ctx\zenith_ctx.xaml" />
+  </ItemGroup>
+</Project>
