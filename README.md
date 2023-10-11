@@ -4,4 +4,5 @@ you will also need to decrypt the process enviroment block as the driver i inclu
 this hijacks for overlay (hijacking medel), it supports vsync and it uses dx11, and also hooks NtUserInjectMouseInput instead of regular mouse event.
 ive done most of the code which is needed and made a pretty okay loop, you can go caching way if you want i provided the base code for that and this is pretty solid code i would say.
 i hope yall enjoy
+i also made the code easy to port to mw3 :)
 discord : bytemov
